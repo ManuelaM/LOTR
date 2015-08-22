@@ -1,0 +1,56 @@
+body{background-image: url('lotr.jpg'); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center; 
+background-size: 100%, 100%;
+background-color: transparent;
+}
+
+h2{
+font-family: Felix Titling;
+color: rgb(0, 0, 0);
+font-size: 40px;
+text-align: center;
+
+}
+.gore {
+position:absolute;
+left:10px; right:10px;
+height: 92px;
+background: rgba(204, 204, 204, 0.7);
+
+}
+.lijevo {
+position:absolute;
+left:10px; top:110px; bottom:;
+width: 160px;
+background: rgba(204, 204, 204, 0.7);
+}
+
+.sredina {
+position: absolute;
+left:195px; top:110px; right:10px; bottom:;
+background: rgba(204, 204, 204, 0.7);
+}
+
+h4{
+font-family: Baskerville Old Face;
+text-align: center;
+}
+
+legend{
+font-family: Felix Titling;
+}
+
+fieldset{
+width: 60%;
+}
+
+a:link {color:black; } 
+a:hover {color:black;}  
+a:visited {color: brown;}  
+a:active {color: black;} 
+
+input:focus { 
+color: brown;
+} 
